@@ -1,37 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500;600;700&family=Inter:wght@400;600;700&family=Oswald:wght@300;400;500&display=swap");
-
-:root,
-#root,
-body {
-  margin: 0;
-  font-family: "Inter", sans-serif;
-  padding: 0;
-  text-align: unset;
-  display: initial !important;
-  --color-black: #272727;
-  --color-cream: #fafaf0;
-  --color-grey: #e1e8ed;
-  --color-yellow: #ffdb59;
-  --color-pink: #aab8c2;
-  --color-blue: #49a6fc;
-  --color-green: #28eca5;
-  --color-red: #ff5959;
-  --color-white: #f5f8fa;
-
-  --font-ibm: {
-    "font-family": "IBM Plex Mono", monospace;
-  }
-  --font-inter: {
-    "font-family": "Inter", sans-serif;
-  }
-  --font-oswald: {
-    "font-family": "Oswald", sans-serif;
-  }
-}
-
-
 .navStripe {
-  font-family: var(--font-ibm);
+  font-family: "IBM Plex Mono", monospace;
   display: flex;
   align-items: baseline;
   justify-content: space-between;

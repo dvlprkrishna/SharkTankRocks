@@ -1,42 +1,30 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500;600;700&family=Inter:wght@400;600;700&family=Oswald:wght@300;400;500&display=swap");
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+:root,
+#root,
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  text-align: unset;
+  display: initial !important;
+  --color-black: #272727;
+  --color-cream: #fafaf0;
+  --color-grey: #e1e8ed;
+  --color-yellow: #ffdb59;
+  --color-pink: #aab8c2;
+  --color-blue: #49a6fc;
+  --color-green: #28eca5;
+  --color-red: #ff5959;
+  --color-white: #f5f8fa;
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+  --font-ibm: {
+    "font-family": "IBM Plex Mono", monospace;
+  };
+  --font-inter: {
+    "font-family": "Inter", sans-serif;
   }
-  to {
-    transform: rotate(360deg);
+  --font-oswald: {
+    "font-family": "Oswald", sans-serif;
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }

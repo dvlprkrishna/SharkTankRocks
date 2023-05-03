@@ -6,7 +6,7 @@ const Header = () => {
       <header>
         <nav>
           <div className="navStripe">
-            <p>list of Invesments made in Shark Tank India </p>
+            <p>List of Invesments made in Shark Tank India </p>
             <a href="#">About Us</a>
           </div>
           <div className="filterWrap">

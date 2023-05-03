@@ -1,0 +1,66 @@
+.card {
+  border: 2px solid var(--color-black);
+  max-width: max-content;
+  margin: 0.5em;
+  background-color: var(--color-white);
+  cursor: pointer;
+  transition: 0.2s all;
+}
+.card:hover {
+  transition: 0.2s all;
+  box-shadow: 8px 8px 0px 0px var(--color-black);
+}
+.cardBranding {
+  display: flex;
+  padding: 0.5em 1.5em;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: var(--color-green);
+}
+.cardBranding img {
+  background-color: var(--color-white);
+  padding: 0.5em;
+  border-radius: 50%;
+  border: 2px solid var(--color-black);
+}
+.pitchInfo {
+  font-family: "IBM Plex Mono", monospace;
+  padding: 0.5em 1.5em;
+  border-top: 2px solid var(--color-black);
+}
+.episodeNumber {
+  font-family: "IBM Plex Mono", monospace;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.pitchInfo div small {
+  font-family: "IBM Plex Mono", monospace;
+  text-transform: uppercase;
+}
+.pitchInfo h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 2em;
+  margin: 0;
+  display: block;
+  background-image: linear-gradient(
+    var(--color-white) 60%,
+    var(--color-green) 55%
+  );
+}
+.pitchInfo p {
+  font-family: "IBM Plex Mono", monospace;
+  margin: 0.15em;
+}
+.askingPrice,
+.deal {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+}
+.askingPrice p,
+.deal p {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5em;
+  margin: 0;
+}
