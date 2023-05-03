@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500;600;700&family=Inter:wght@400;600;700&family=Oswald:wght@300;400;500&display=swap");
+
+:root,
+#root,
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  padding: 0;
+  text-align: unset;
+  display: initial;
+}
+
+/* font-family: "IBM Plex Mono", monospace;
+font-family: "Inter", sans-serif;
+font-family: "Oswald", sans-serif; */
+
+.navStripe {
+  font-family: "IBM Plex Mono", monospace;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 0.5em 1.5em;
+  background-color: #272727;
+  color: #e1e8ed;
+}
+.navStripe a {
+  font-family: "IBM Plex Mono", monospace;
+  border: 1px solid #000000;
+  padding: 0.5em 3em;
+  margin: 0.25em;
+  background-color: #ffdb59;
+  color: #272727;
+  transition: 0.1s all;
+}
+.navStripe a:hover {
+  transition: 0.1s all;
+  color: #272727;
+  background-color: #28eca5;
+}
+.filterWrap {
+  padding: 0em 1.5em;
+}
+h2 {
+  font-size: 3em;
+  margin: 0em auto;
+  font-weight: 300;
+  font-family: "IBM Plex Mono", monospace;
+  border-bottom: 3px solid #272727;
+  margin-bottom: 0.5em;
+}
+
+/* filterWrap / Buttons */
+.filterWrap {
+  background-color: #ffdb59;
+  color: #272727;
+  padding-bottom: 0.25em;
+}
+.filterWrap button {
+  display: inline-flex;
+  font-family: "IBM Plex Mono", monospace;
+  border: 1px solid #000000;
+  margin: 0.25em;
+  text-align: left !important;
+  background-color: #e1e8ed;
+  color: #272727;
+  border-radius: 0;
+  justify-content: flex-start;
+  transition: 0.1s all;
+  align-items: baseline;
+  flex-direction: row;
+  gap: 1em;
+}
+.filterWrap button span {
+  font-family: "IBM Plex Mono", monospace;
+  border: 1px solid #272727;
+  width: max-content;
+  padding: 0.15em 0.5em;
+  border-radius: 50%;
+}
