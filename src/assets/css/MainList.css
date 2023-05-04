@@ -16,6 +16,7 @@
   justify-content: space-between;
   align-items: baseline;
   background-color: var(--color-green);
+  gap: 1em;
 }
 .cardBranding img {
   background-color: var(--color-white);
@@ -23,6 +24,11 @@
   border-radius: 50%;
   border: 2px solid var(--color-black);
 }
+
+.investors {
+  display: flex;
+}
+
 .pitchInfo {
   font-family: "IBM Plex Mono", monospace;
   padding: 0.5em 1.5em;
@@ -36,20 +42,38 @@
 .pitchInfo div small {
   font-family: "IBM Plex Mono", monospace;
   text-transform: uppercase;
+  line-height: 1;
+  font-size: 0.75em;
+  margin: 0;
+  padding: 0;
 }
 .pitchInfo h3 {
   font-family: "Inter", sans-serif;
   font-size: 2em;
   margin: 0;
   display: block;
-  background-image: linear-gradient(
+  z-index: 0;
+  position: relative;
+  width: max-content;
+  /* background-image: linear-gradient(
     var(--color-white) 60%,
     var(--color-green) 55%
-  );
+  ); */
+}
+.pitchInfo h3:after {
+  content: "";
+  background-color: var(--color-green);
+  height: 25px;
+  position: absolute;
+  z-index: -1;
+  top: 0.5em;
+  left: 9%;
+  width: 80%;
+  rotate: -9deg;
 }
 .pitchInfo p {
   font-family: "IBM Plex Mono", monospace;
-  margin: 0.15em;
+  margin: 1em 0 0.75em;
 }
 .askingPrice,
 .deal {
@@ -63,4 +87,6 @@
   font-family: "Oswald", sans-serif;
   font-size: 1.5em;
   margin: 0;
+  padding: 0;
+  line-height: 1.2;
 }

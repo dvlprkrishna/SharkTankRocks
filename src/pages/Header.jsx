@@ -29,7 +29,7 @@ const Header = () => {
                 Ashneer Grover <span>2</span>
               </button>
               <button>
-                Vineeta <span>2</span>
+                Vineeta Singh <span>2</span>
               </button>
               <button>
                 Aman Gupta <span>2</span>
