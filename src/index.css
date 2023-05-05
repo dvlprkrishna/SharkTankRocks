@@ -29,7 +29,8 @@ button {
   /* smartphones, iPhone, portrait 480x320 phones */
   .mainListWrap {
     display: grid;
-    margin-left: 1em;
+    margin: 1em;
+
     grid-template-columns: 1fr;
   }
 }
@@ -37,7 +38,8 @@ button {
   /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
   .mainListWrap {
     display: grid;
-    margin-left: 1em;
+    margin: 1em;
+
     grid-template-columns: 1fr;
   }
 }
@@ -45,7 +47,8 @@ button {
   /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
   .mainListWrap {
     display: grid;
-    margin-left: 1em;
+    margin: 1em;
+
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -53,7 +56,8 @@ button {
   /* tablet, landscape iPad, lo-res laptops ands desktops */
   .mainListWrap {
     display: grid;
-    margin-left: 1em;
+    margin: 1em;
+
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -61,7 +65,8 @@ button {
   /* big landscape tablets, laptops, and desktops */
   .mainListWrap {
     display: grid;
-    margin-left: 1em;
+    margin: 1em;
+
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
@@ -69,7 +74,8 @@ button {
   /* hi-res laptops and desktops */
   .mainListWrap {
     display: grid;
-    margin-left: 1em;
+    margin: 1em;
+
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
