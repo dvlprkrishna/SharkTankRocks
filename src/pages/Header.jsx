@@ -11,7 +11,7 @@ const Header = () => {
           </div>
           <div className="filterWrap">
             <div>
-              <h2>Find your favorite deal below</h2>
+              <h2>Filter your favorite deal below</h2>
             </div>
             <div className="filter">
               <button>
@@ -23,25 +23,25 @@ const Header = () => {
             </div>
             <div>
               <button>
-                Namita Thapar<span>1</span>
+                Namita Thapar<span>22</span>
               </button>
               <button>
-                Ashneer Grover <span>2</span>
+                Ashneer Grover <span>21</span>
               </button>
               <button>
-                Vineeta Singh <span>2</span>
+                Vineeta Singh <span>15</span>
               </button>
               <button>
-                Aman Gupta <span>2</span>
+                Aman Gupta <span>29</span>
               </button>
               <button>
-                Peyush Bansal <span>2</span>
+                Peyush Bansal <span>27</span>
               </button>
               <button>
-                Ghazal Alag <span>2</span>
+                Ghazal Alag <span>7</span>
               </button>
               <button>
-                Anupam Mittal <span>2</span>
+                Anupam Mittal <span>24</span>
               </button>
             </div>
           </div>

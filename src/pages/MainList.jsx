@@ -18,12 +18,65 @@ const MainList = (props) => {
         <div className="cardBranding">
           <img src={viteLogo} alt="" />
           <div className="investors">
-            <img
-              src={props.elem.Ashneer == "Deal" ? `${ashneer}` : null}
-              className="logo react"
-              width={36}
-              alt="ashneer"
-            />
+            {props.elem.Namita == "Deal" ? (
+              <img
+                src={namita}
+                className="logo react"
+                width={42}
+                alt="Namita"
+              />
+            ) : (
+              <img
+                src={"ashneer"}
+                style={{ visibility: "hidden" }}
+                className="logo react"
+                width={42}
+                alt="ashneer"
+              />
+            )}
+            {props.elem.Anupam == "Deal" ? (
+              <img
+                src={anupam}
+                className="logo react"
+                width={42}
+                alt="Anupam"
+              />
+            ) : null}
+            {props.elem.Vineeta == "Deal" ? (
+              <img
+                src={vineeta}
+                className="logo react"
+                width={42}
+                alt="Vineeta"
+              />
+            ) : null}
+            {props.elem.Aman == "Deal" ? (
+              <img src={aman} className="logo react" width={42} alt="Aman" />
+            ) : null}
+            {props.elem.Peyush == "Deal" ? (
+              <img
+                src={peyush}
+                className="logo react"
+                width={42}
+                alt="Peyush"
+              />
+            ) : null}
+            {props.elem.Ghazal == "Deal" ? (
+              <img
+                src={ghazal}
+                className="logo react"
+                width={42}
+                alt="Ghazal"
+              />
+            ) : null}
+            {props.elem.Ashneer == "Deal" ? (
+              <img
+                src={ashneer}
+                className="logo react"
+                width={42}
+                alt="ashneer"
+              />
+            ) : null}
           </div>
         </div>
         <div className="pitchInfo">
@@ -32,11 +85,14 @@ const MainList = (props) => {
               {"S01 " + props.elem.Episode + ""}
               {/* {"S01 " + props.elem["EpNo"] + " " + props.elem["Pitch No"]} */}
             </small>
-            <h3>
-              {props.elem.Brand.length > 16
-                ? props.elem.Brand.substring(0, 16) + ".."
-                : props.elem.Brand}
-            </h3>
+            <div className="brandName">
+              <h3>
+                {/* {props.elem.Brand.length > 16
+                  ? props.elem.Brand.substring(0, 16) + ".."
+                  : props.elem.Brand} */}
+                {props.elem.Brand}
+              </h3>
+            </div>
             <p>{props.elem.Idea}</p>
             <div className="askingPrice">
               <img src={askLogo} alt="" width={32} />
