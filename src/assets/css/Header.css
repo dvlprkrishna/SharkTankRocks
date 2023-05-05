@@ -67,7 +67,7 @@ h2 {
   border: 1px solid var(--color-black);
   width: max-content;
   padding: 0.15em 0.5em;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 .filterWrap button:nth-child(1) span {

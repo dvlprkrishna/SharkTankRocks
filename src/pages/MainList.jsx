@@ -3,13 +3,15 @@ import "../assets/css/MainList.css";
 import viteLogo from "/vite.svg";
 import askLogo from "../assets/chat.png";
 import dealLogo from "../assets/cash.png";
-import ashneer from "../assets/ashneer.jpeg";
-import anupam from "../assets/anupam.jpeg";
-import vineeta from "../assets/vineeta.jpeg";
-import namita from "../assets/namita.jpeg";
-import ghazal from "../assets/ghazal.jpeg";
-import peyush from "../assets/peyush.jpeg";
-import aman from "../assets/aman.jpeg";
+
+import Ashneer from "../assets/investors/ashneer.jpeg";
+import Anupam from "../assets/investors/anupam.jpeg";
+import Vineeta from "../assets/investors/vineeta.jpeg";
+import Namita from "../assets/investors/namita.jpeg";
+import Ghazal from "../assets/investors/ghazal.jpeg";
+import Peyush from "../assets/investors/peyush.jpeg";
+import Amit from "../assets/investors/amit.jpeg";
+import Aman from "../assets/investors/aman.jpeg";
 
 const MainList = (props) => {
   const validColors = [
@@ -32,114 +34,146 @@ const MainList = (props) => {
   ];
 
   return (
-    console.log(props.elem.Pitch),
-    (
-      <>
-        <div className="card">
-          <div
-            className="cardBranding"
-            style={{
-              backgroundColor:
-                validColors[Math.floor(Math.random() * validColors.length + 1)],
-            }}
+    <>
+      <div className="card">
+        <div
+          className="cardBranding"
+          style={{
+            backgroundColor:
+              validColors[Math.floor(Math.random() * validColors.length + 1)],
+          }}
+        >
+          <a
+            href={props.elem.link != "" ? props.elem.link : null}
+            target="_blank"
+            rel="noreferrer"
           >
-            <img src={viteLogo} alt="" />
-            <div className="investors">
-              {props.elem.Namita == "Deal" ? (
-                <img
-                  src={namita}
-                  className="logo react"
-                  width={42}
-                  alt="Namita"
-                />
-              ) : (
-                <img
-                  src={"ashneer"}
-                  style={{ visibility: "hidden" }}
-                  className="logo react"
-                  width={42}
-                  alt="ashneer"
-                />
-              )}
-              {props.elem.Anupam == "Deal" ? (
-                <img
-                  src={anupam}
-                  className="logo react"
-                  width={42}
-                  alt="Anupam"
-                />
-              ) : null}
-              {props.elem.Vineeta == "Deal" ? (
-                <img
-                  src={vineeta}
-                  className="logo react"
-                  width={42}
-                  alt="Vineeta"
-                />
-              ) : null}
-              {props.elem.Aman == "Deal" ? (
-                <img src={aman} className="logo react" width={42} alt="Aman" />
-              ) : null}
-              {props.elem.Peyush == "Deal" ? (
-                <img
-                  src={peyush}
-                  className="logo react"
-                  width={42}
-                  alt="Peyush"
-                />
-              ) : null}
-              {props.elem.Ghazal == "Deal" ? (
-                <img
-                  src={ghazal}
-                  className="logo react"
-                  width={42}
-                  alt="Ghazal"
-                />
-              ) : null}
-              {props.elem.Ashneer == "Deal" ? (
-                <img
-                  src={ashneer}
-                  className="logo react"
-                  width={42}
-                  alt="ashneer"
-                />
-              ) : null}
-            </div>
-          </div>
-          <div className="pitchInfo">
-            <div>
-              <small className="episodeNumber">
-                {"S01" + "E" + props.elem.Episode + "P" + props.elem.Pitch}
-              </small>
+            <img
+              src={
+                props.elem.Logo !== ""
+                  ? `/brands/${props.elem.Logo}`
+                  : `/brands/default.png`
+              }
+              className="brandLogo"
+              alt=""
+            />
+          </a>
 
-              <div className="brandName">
-                <h3>
-                  {/* {props.elem.Brand.length > 16
+          <div className="investors">
+            {props.elem.Namita == "Deal" ? (
+              <img
+                src={Namita}
+                className="logo react"
+                width={56}
+                alt="Namita"
+                title="Namita Thapar"
+              />
+            ) : (
+              <img
+                src={"ashneer"}
+                style={{ visibility: "hidden" }}
+                className="logo react"
+                width={56}
+              />
+            )}
+            {props.elem.Anupam == "Deal" ? (
+              <img
+                src={Anupam}
+                className="logo react"
+                width={56}
+                alt="Anupam"
+                title="Anupam Mittal"
+              />
+            ) : null}
+            {props.elem.Amit == "Deal" ? (
+              <img
+                src={Amit}
+                className="logo react"
+                width={56}
+                alt="Amit"
+                title="Amit Mittal"
+              />
+            ) : null}
+            {props.elem.Vineeta == "Deal" ? (
+              <img
+                src={Vineeta}
+                className="logo react"
+                width={56}
+                alt="Vineeta"
+                title="Vineeta Singh"
+              />
+            ) : null}
+            {props.elem.Aman == "Deal" ? (
+              <img
+                src={Aman}
+                className="logo react"
+                width={56}
+                alt="Aman"
+                title="Aman Gupta"
+              />
+            ) : null}
+            {props.elem.Peyush == "Deal" ? (
+              <img
+                src={Peyush}
+                className="logo react"
+                width={56}
+                alt="Peyush"
+                title="Peyush Bansal"
+              />
+            ) : null}
+            {props.elem.Ghazal == "Deal" ? (
+              <img
+                src={Ghazal}
+                className="logo react"
+                width={56}
+                alt="Ghazal"
+                title="Ghazal Alag"
+              />
+            ) : null}
+            {props.elem.Ashneer == "Deal" ? (
+              <img
+                src={Ashneer}
+                className="logo react"
+                width={56}
+                alt="ashneer"
+                title="Ashneer Gover"
+              />
+            ) : null}
+          </div>
+        </div>
+        <div className="pitchInfo">
+          <div>
+            <small className="episodeNumber">
+              {"S01" + "E" + props.elem.Episode + "P" + props.elem.Pitch}
+            </small>
+
+            <div className="brandName">
+              <h3>
+                {/* {props.elem.Brand.length > 16
                   ? props.elem.Brand.substring(0, 16) + ".."
                   : props.elem.Brand} */}
-                  {props.elem.Brand}
-                </h3>
+                {props.elem.Brand}
+              </h3>
+            </div>
+            <p>{props.elem.Idea}</p>
+            <div className="askingPrice">
+              <img src={askLogo} alt="" width={32} />
+              <div>
+                <small>Asking Price</small>
+                <p>{props.elem["Original ask"]}</p>
               </div>
-              <p>{props.elem.Idea}</p>
-              <div className="askingPrice">
-                <img src={askLogo} alt="" width={32} />
-                <div>
-                  <small>Asking Price</small>
-                  <p>{props.elem["Original ask"]}</p>
-                </div>
-              </div>
-              <div className="deal">
-                <img src={dealLogo} alt="" width={32} />
-                <div>
-                  <small>Deal</small>
-                  <p>{props.elem["Deal"]}</p>
-                </div>
+            </div>
+            <div className="deal">
+              <img src={dealLogo} alt="" width={32} />
+              <div>
+                <small>Deal</small>
+                <p>{props.elem["Deal"]}</p>
               </div>
             </div>
           </div>
         </div>
-      </>
-    )
+      </div>
+    </>
   );
 };
 

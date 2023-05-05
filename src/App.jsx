@@ -13,7 +13,7 @@ function App() {
 
   useEffect(() => {
     setDisplayData(s1Data.slice(0, displayCount));
-  }, [displayCount]);
+  }, [displayCount, s1Data]);
 
   const loadMore = (e) => {
     e.preventDefault();
