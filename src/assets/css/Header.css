@@ -54,6 +54,10 @@ h2 {
   flex-direction: row;
   gap: 1em;
 }
+.filterWrap button.active,
+.filterWrap button:link,
+.filterWrap button:visited,
+.filterWrap button:active,
 .filterWrap button:hover {
   transition: 0.2s all;
   box-shadow: 4px 4px 0px 0px var(--color-black);

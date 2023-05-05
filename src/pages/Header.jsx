@@ -14,7 +14,7 @@ const Header = () => {
               <h2>Filter your favorite deal below</h2>
             </div>
             <div className="filter">
-              <button>
+              <button className="active">
                 Season <span>1</span>
               </button>
               <button>

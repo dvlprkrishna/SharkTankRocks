@@ -1,7 +1,7 @@
 [
   {
     "Episode": 1,
-    "Pitch No": 1,
+    "Pitch": 1,
     "Logo": "",
     "link": "",
     "Brand": "BluePine Industries",
@@ -18,7 +18,7 @@
   },
   {
     "Episode": 1,
-    "Pitch No": 2,
+    "Pitch": 2,
     "Logo": "",
     "link": "",
     "Brand": "Booz scooters",
@@ -35,7 +35,7 @@
   },
   {
     "Episode": 1,
-    "Pitch No": 3,
+    "Pitch": 3,
     "Logo": "",
     "link": "",
     "Brand": "Heart up my Sleeves",
@@ -52,7 +52,7 @@
   },
   {
     "Episode": 2,
-    "Pitch No": 4,
+    "Pitch": 4,
     "Logo": "",
     "link": "",
     "Brand": "Tagz Foods",
@@ -69,7 +69,7 @@
   },
   {
     "Episode": 2,
-    "Pitch No": 5,
+    "Pitch": 5,
     "Logo": "",
     "link": "",
     "Brand": "Head and Heart",
@@ -86,7 +86,7 @@
   },
   {
     "Episode": 2,
-    "Pitch No": 6,
+    "Pitch": 6,
     "Logo": "",
     "link": "",
     "Brand": "Agro tourism",
@@ -103,7 +103,7 @@
   },
   {
     "Episode": 3,
-    "Pitch No": 7,
+    "Pitch": 7,
     "Logo": "",
     "link": "",
     "Brand": "Qzense Labs",
@@ -120,7 +120,7 @@
   },
   {
     "Episode": 3,
-    "Pitch No": 8,
+    "Pitch": 8,
     "Logo": "",
     "link": "",
     "Brand": "Peeschute",
@@ -137,7 +137,7 @@
   },
   {
     "Episode": 3,
-    "Pitch No": 9,
+    "Pitch": 9,
     "Logo": "",
     "link": "",
     "Brand": "NOCD",
@@ -154,7 +154,7 @@
   },
   {
     "Episode": 4,
-    "Pitch No": 10,
+    "Pitch": 10,
     "Logo": "",
     "link": "",
     "Brand": "Cosiq",
@@ -171,7 +171,7 @@
   },
   {
     "Episode": 4,
-    "Pitch No": 11,
+    "Pitch": 11,
     "Logo": "",
     "link": "",
     "Brand": "JhaJi Achaar",
@@ -188,7 +188,7 @@
   },
   {
     "Episode": 4,
-    "Pitch No": 12,
+    "Pitch": 12,
     "Logo": "",
     "link": "",
     "Brand": "Bummer",
@@ -205,7 +205,7 @@
   },
   {
     "Episode": 5,
-    "Pitch No": 13,
+    "Pitch": 13,
     "Logo": "",
     "link": "",
     "Brand": "Revamp Moto",
@@ -222,7 +222,7 @@
   },
   {
     "Episode": 5,
-    "Pitch No": 14,
+    "Pitch": 14,
     "Logo": "",
     "link": "",
     "Brand": "Hungry Heads",
@@ -239,7 +239,7 @@
   },
   {
     "Episode": 5,
-    "Pitch No": 15,
+    "Pitch": 15,
     "Logo": "",
     "link": "",
     "Brand": "Shrawani Engineers",
@@ -256,7 +256,7 @@
   },
   {
     "Episode": 6,
-    "Pitch No": 16,
+    "Pitch": 16,
     "Logo": "",
     "link": "",
     "Brand": "Skippi Pops",
@@ -273,7 +273,7 @@
   },
   {
     "Episode": 6,
-    "Pitch No": 17,
+    "Pitch": 17,
     "Logo": "",
     "link": "",
     "Brand": "Menstrupedia",
@@ -290,7 +290,7 @@
   },
   {
     "Episode": 6,
-    "Pitch No": 18,
+    "Pitch": 18,
     "Logo": "",
     "link": "",
     "Brand": "Hecolll",
@@ -307,7 +307,7 @@
   },
   {
     "Episode": 7,
-    "Pitch No": 19,
+    "Pitch": 19,
     "Logo": "",
     "link": "",
     "Brand": "Raising Superstars",
@@ -324,7 +324,7 @@
   },
   {
     "Episode": 7,
-    "Pitch No": 20,
+    "Pitch": 20,
     "Logo": "",
     "link": "",
     "Brand": "Torchit",
@@ -341,7 +341,7 @@
   },
   {
     "Episode": 7,
-    "Pitch No": 21,
+    "Pitch": 21,
     "Logo": "",
     "link": "",
     "Brand": "La Kheer Deli",
@@ -358,7 +358,7 @@
   },
   {
     "Episode": 8,
-    "Pitch No": 22,
+    "Pitch": 22,
     "Logo": "",
     "link": "",
     "Brand": "Beyond Snack",
@@ -375,7 +375,7 @@
   },
   {
     "Episode": 8,
-    "Pitch No": 23,
+    "Pitch": 23,
     "Logo": "",
     "link": "",
     "Brand": "Vivalyf Innovations- Easy Life",
@@ -392,7 +392,7 @@
   },
   {
     "Episode": 8,
-    "Pitch No": 24,
+    "Pitch": 24,
     "Logo": "",
     "link": "",
     "Brand": "Motion Breeze",
@@ -409,7 +409,7 @@
   },
   {
     "Episode": 9,
-    "Pitch No": 25,
+    "Pitch": 25,
     "Logo": "",
     "link": "",
     "Brand": "Altor",
@@ -426,7 +426,7 @@
   },
   {
     "Episode": 9,
-    "Pitch No": 26,
+    "Pitch": 26,
     "Logo": "",
     "link": "",
     "Brand": "Ariro",
@@ -443,7 +443,7 @@
   },
   {
     "Episode": 9,
-    "Pitch No": 27,
+    "Pitch": 27,
     "Logo": "",
     "link": "",
     "Brand": "Kabira Handmade",
@@ -460,7 +460,7 @@
   },
   {
     "Episode": 10,
-    "Pitch No": 28,
+    "Pitch": 28,
     "Logo": "",
     "link": "",
     "Brand": "Nuutjob",
@@ -477,7 +477,7 @@
   },
   {
     "Episode": 10,
-    "Pitch No": 29,
+    "Pitch": 29,
     "Logo": "",
     "link": "",
     "Brand": "Meatyour",
@@ -494,7 +494,7 @@
   },
   {
     "Episode": 10,
-    "Pitch No": 30,
+    "Pitch": 30,
     "Logo": "",
     "link": "",
     "Brand": "EventBeep",
@@ -511,7 +511,7 @@
   },
   {
     "Episode": 11,
-    "Pitch No": 31,
+    "Pitch": 31,
     "Logo": "",
     "link": "",
     "Brand": "Gopal's 56",
@@ -528,7 +528,7 @@
   },
   {
     "Episode": 11,
-    "Pitch No": 32,
+    "Pitch": 32,
     "Logo": "",
     "link": "",
     "Brand": "ARRCOAT Surface Textures",
@@ -545,7 +545,7 @@
   },
   {
     "Episode": 11,
-    "Pitch No": 33,
+    "Pitch": 33,
     "Logo": "",
     "link": "",
     "Brand": "Farda",
@@ -562,7 +562,7 @@
   },
   {
     "Episode": 12,
-    "Pitch No": 34,
+    "Pitch": 34,
     "Logo": "",
     "link": "",
     "Brand": "Auli Lifestyle",
@@ -579,7 +579,7 @@
   },
   {
     "Episode": 12,
-    "Pitch No": 35,
+    "Pitch": 35,
     "Logo": "",
     "link": "",
     "Brand": "SweeDesi",
@@ -596,7 +596,7 @@
   },
   {
     "Episode": 12,
-    "Pitch No": 36,
+    "Pitch": 36,
     "Logo": "",
     "link": "",
     "Brand": "LOKA",
@@ -613,7 +613,7 @@
   },
   {
     "Episode": 13,
-    "Pitch No": 37,
+    "Pitch": 37,
     "Logo": "",
     "link": "",
     "Brand": "Annie",
@@ -630,7 +630,7 @@
   },
   {
     "Episode": 13,
-    "Pitch No": 38,
+    "Pitch": 38,
     "Logo": "",
     "link": "",
     "Brand": "Caragreen",
@@ -647,7 +647,7 @@
   },
   {
     "Episode": 13,
-    "Pitch No": 39,
+    "Pitch": 39,
     "Logo": "",
     "link": "",
     "Brand": "The Yarn Bazaar",
@@ -664,7 +664,7 @@
   },
   {
     "Episode": 14,
-    "Pitch No": 40,
+    "Pitch": 40,
     "Logo": "",
     "link": "",
     "Brand": "The Renal Project",
@@ -681,7 +681,7 @@
   },
   {
     "Episode": 14,
-    "Pitch No": 41,
+    "Pitch": 41,
     "Logo": "",
     "link": "",
     "Brand": "Morikko Pure Foods",
@@ -698,7 +698,7 @@
   },
   {
     "Episode": 14,
-    "Pitch No": 42,
+    "Pitch": 42,
     "Logo": "",
     "link": "",
     "Brand": "Good Good Piggy Bank",
@@ -715,7 +715,7 @@
   },
   {
     "Episode": 15,
-    "Pitch No": 43,
+    "Pitch": 43,
     "Logo": "",
     "link": "",
     "Brand": "Hammer Lifestyle",
@@ -732,7 +732,7 @@
   },
   {
     "Episode": 15,
-    "Pitch No": 44,
+    "Pitch": 44,
     "Logo": "",
     "link": "",
     "Brand": "PNT",
@@ -749,7 +749,7 @@
   },
   {
     "Episode": 15,
-    "Pitch No": 45,
+    "Pitch": 45,
     "Logo": "",
     "link": "",
     "Brand": "Cocofit",
@@ -766,7 +766,7 @@
   },
   {
     "Episode": 16,
-    "Pitch No": 46,
+    "Pitch": 46,
     "Logo": "",
     "link": "",
     "Brand": "Bamboo India",
@@ -783,7 +783,7 @@
   },
   {
     "Episode": 16,
-    "Pitch No": 47,
+    "Pitch": 47,
     "Logo": "",
     "link": "",
     "Brand": "Flying Furr",
@@ -800,7 +800,7 @@
   },
   {
     "Episode": 16,
-    "Pitch No": 48,
+    "Pitch": 48,
     "Logo": "",
     "link": "",
     "Brand": "Beyond Water",
@@ -817,7 +817,7 @@
   },
   {
     "Episode": 16,
-    "Pitch No": 49,
+    "Pitch": 49,
     "Logo": "",
     "link": "",
     "Brand": "Let's Try",
@@ -834,7 +834,7 @@
   },
   {
     "Episode": 17,
-    "Pitch No": 50,
+    "Pitch": 50,
     "Logo": "",
     "link": "",
     "Brand": "Find Your Kicks India",
@@ -851,7 +851,7 @@
   },
   {
     "Episode": 17,
-    "Pitch No": 51,
+    "Pitch": 51,
     "Logo": "",
     "link": "",
     "Brand": "Aas Vidyalaya",
@@ -868,7 +868,7 @@
   },
   {
     "Episode": 17,
-    "Pitch No": 52,
+    "Pitch": 52,
     "Logo": "",
     "link": "",
     "Brand": "Outbox",
@@ -885,7 +885,7 @@
   },
   {
     "Episode": 17,
-    "Pitch No": 53,
+    "Pitch": 53,
     "Logo": "",
     "link": "",
     "Brand": "RoadBounce",
@@ -902,7 +902,7 @@
   },
   {
     "Episode": 18,
-    "Pitch No": 54,
+    "Pitch": 54,
     "Logo": "",
     "link": "",
     "Brand": "Mommy's Kitchen",
@@ -919,7 +919,7 @@
   },
   {
     "Episode": 18,
-    "Pitch No": 55,
+    "Pitch": 55,
     "Logo": "",
     "link": "",
     "Brand": "India Hemp and Co",
@@ -936,7 +936,7 @@
   },
   {
     "Episode": 18,
-    "Pitch No": 56,
+    "Pitch": 56,
     "Logo": "",
     "link": "",
     "Brand": "Otua",
@@ -953,7 +953,7 @@
   },
   {
     "Episode": 18,
-    "Pitch No": 57,
+    "Pitch": 57,
     "Logo": "",
     "link": "",
     "Brand": "Anthyesti",
@@ -970,7 +970,7 @@
   },
   {
     "Episode": 19,
-    "Pitch No": 58,
+    "Pitch": 58,
     "Logo": "",
     "link": "",
     "Brand": "Ethik",
@@ -987,7 +987,7 @@
   },
   {
     "Episode": 19,
-    "Pitch No": 59,
+    "Pitch": 59,
     "Logo": "",
     "link": "",
     "Brand": "WeSTOCK",
@@ -1004,7 +1004,7 @@
   },
   {
     "Episode": 19,
-    "Pitch No": 60,
+    "Pitch": 60,
     "Logo": "",
     "link": "",
     "Brand": "KetoIndia",
@@ -1021,7 +1021,7 @@
   },
   {
     "Episode": 19,
-    "Pitch No": 61,
+    "Pitch": 61,
     "Logo": "",
     "link": "",
     "Brand": "Magic lock",
@@ -1038,7 +1038,7 @@
   },
   {
     "Episode": 20,
-    "Pitch No": 62,
+    "Pitch": 62,
     "Logo": "",
     "link": "",
     "Brand": "The State Plate",
@@ -1055,7 +1055,7 @@
   },
   {
     "Episode": 20,
-    "Pitch No": 63,
+    "Pitch": 63,
     "Logo": "",
     "link": "",
     "Brand": "Bakarmax",
@@ -1072,7 +1072,7 @@
   },
   {
     "Episode": 20,
-    "Pitch No": 64,
+    "Pitch": 64,
     "Logo": "",
     "link": "",
     "Brand": "IN A CAN",
@@ -1089,7 +1089,7 @@
   },
   {
     "Episode": 21,
-    "Pitch No": 65,
+    "Pitch": 65,
     "Logo": "",
     "link": "",
     "Brand": "Get a Whey",
@@ -1106,7 +1106,7 @@
   },
   {
     "Episode": 21,
-    "Pitch No": 66,
+    "Pitch": 66,
     "Logo": "",
     "link": "",
     "Brand": "Sid07 Designs",
@@ -1123,7 +1123,7 @@
   },
   {
     "Episode": 21,
-    "Pitch No": 67,
+    "Pitch": 67,
     "Logo": "",
     "link": "",
     "Brand": "The Quirky Nari",
@@ -1140,7 +1140,7 @@
   },
   {
     "Episode": 22,
-    "Pitch No": 68,
+    "Pitch": 68,
     "Logo": "",
     "link": "",
     "Brand": "Hair Originals",
@@ -1157,7 +1157,7 @@
   },
   {
     "Episode": 22,
-    "Pitch No": 69,
+    "Pitch": 69,
     "Logo": "",
     "link": "",
     "Brand": "Poo de Cologne",
@@ -1174,7 +1174,7 @@
   },
   {
     "Episode": 22,
-    "Pitch No": 70,
+    "Pitch": 70,
     "Logo": "",
     "link": "",
     "Brand": "Moonshine Meads",
@@ -1191,7 +1191,7 @@
   },
   {
     "Episode": 22,
-    "Pitch No": 71,
+    "Pitch": 71,
     "Logo": "",
     "link": "",
     "Brand": "Falhari",
@@ -1208,7 +1208,7 @@
   },
   {
     "Episode": 23,
-    "Pitch No": 72,
+    "Pitch": 72,
     "Logo": "",
     "link": "",
     "Brand": "Namhya Foods",
@@ -1225,7 +1225,7 @@
   },
   {
     "Episode": 23,
-    "Pitch No": 73,
+    "Pitch": 73,
     "Logo": "",
     "link": "",
     "Brand": "Urban Monkey",
@@ -1242,7 +1242,7 @@
   },
   {
     "Episode": 23,
-    "Pitch No": 74,
+    "Pitch": 74,
     "Logo": "",
     "link": "",
     "Brand": "Guardian Gears",
@@ -1259,7 +1259,7 @@
   },
   {
     "Episode": 23,
-    "Pitch No": 75,
+    "Pitch": 75,
     "Logo": "",
     "link": "",
     "Brand": "Modern Myth",
@@ -1276,7 +1276,7 @@
   },
   {
     "Episode": 24,
-    "Pitch No": 76,
+    "Pitch": 76,
     "Logo": "",
     "link": "",
     "Brand": "The Sass Bar",
@@ -1293,7 +1293,7 @@
   },
   {
     "Episode": 24,
-    "Pitch No": 77,
+    "Pitch": 77,
     "Logo": "",
     "link": "",
     "Brand": "KG Agrotech",
@@ -1310,7 +1310,7 @@
   },
   {
     "Episode": 24,
-    "Pitch No": 78,
+    "Pitch": 78,
     "Logo": "",
     "link": "",
     "Brand": "Nuskha Kitchen",
@@ -1327,7 +1327,7 @@
   },
   {
     "Episode": 25,
-    "Pitch No": 79,
+    "Pitch": 79,
     "Logo": "",
     "link": "",
     "Brand": "PawsIndia",
@@ -1344,7 +1344,7 @@
   },
   {
     "Episode": 25,
-    "Pitch No": 80,
+    "Pitch": 80,
     "Logo": "",
     "link": "",
     "Brand": "Sunfox Technologies",
@@ -1361,7 +1361,7 @@
   },
   {
     "Episode": 25,
-    "Pitch No": 81,
+    "Pitch": 81,
     "Logo": "",
     "link": "",
     "Brand": "Alpino",
@@ -1378,7 +1378,7 @@
   },
   {
     "Episode": 26,
-    "Pitch No": 82,
+    "Pitch": 82,
     "Logo": "",
     "link": "",
     "Brand": "Isak Fragrances",
@@ -1395,7 +1395,7 @@
   },
   {
     "Episode": 26,
-    "Pitch No": 83,
+    "Pitch": 83,
     "Logo": "",
     "link": "",
     "Brand": "Julaa Automation",
@@ -1412,7 +1412,7 @@
   },
   {
     "Episode": 26,
-    "Pitch No": 84,
+    "Pitch": 84,
     "Logo": "",
     "link": "",
     "Brand": "Rare Planet",
@@ -1429,7 +1429,7 @@
   },
   {
     "Episode": 27,
-    "Pitch No": 85,
+    "Pitch": 85,
     "Logo": "",
     "link": "",
     "Brand": "Theka Coffee",
@@ -1446,7 +1446,7 @@
   },
   {
     "Episode": 27,
-    "Pitch No": 86,
+    "Pitch": 86,
     "Logo": "",
     "link": "",
     "Brand": "Watt Technovations",
@@ -1463,7 +1463,7 @@
   },
   {
     "Episode": 27,
-    "Pitch No": 87,
+    "Pitch": 87,
     "Logo": "",
     "link": "",
     "Brand": "Aliste Technologies",
@@ -1480,7 +1480,7 @@
   },
   {
     "Episode": 27,
-    "Pitch No": 88,
+    "Pitch": 88,
     "Logo": "",
     "link": "",
     "Brand": "Insurance Samadhan",
@@ -1497,7 +1497,7 @@
   },
   {
     "Episode": 28,
-    "Pitch No": 89,
+    "Pitch": 89,
     "Logo": "",
     "link": "",
     "Brand": "Humpy A2",
@@ -1514,7 +1514,7 @@
   },
   {
     "Episode": 28,
-    "Pitch No": 90,
+    "Pitch": 90,
     "Logo": "",
     "link": "",
     "Brand": "Kunafa World",
@@ -1531,7 +1531,7 @@
   },
   {
     "Episode": 28,
-    "Pitch No": 91,
+    "Pitch": 91,
     "Logo": "",
     "link": "",
     "Brand": "Gold Safe Solutions Ind.",
@@ -1548,7 +1548,7 @@
   },
   {
     "Episode": 29,
-    "Pitch No": 92,
+    "Pitch": 92,
     "Logo": "",
     "link": "",
     "Brand": "Wakao Foods",
@@ -1565,7 +1565,7 @@
   },
   {
     "Episode": 29,
-    "Pitch No": 93,
+    "Pitch": 93,
     "Logo": "",
     "link": "",
     "Brand": "PDD Falcon",
@@ -1582,7 +1582,7 @@
   },
   {
     "Episode": 29,
-    "Pitch No": 94,
+    "Pitch": 94,
     "Logo": "",
     "link": "",
     "Brand": "PlayBox TV",
@@ -1599,7 +1599,7 @@
   },
   {
     "Episode": 30,
-    "Pitch No": 95,
+    "Pitch": 95,
     "Logo": "",
     "link": "",
     "Brand": "Sippline Drinking Shields",
@@ -1616,7 +1616,7 @@
   },
   {
     "Episode": 30,
-    "Pitch No": 96,
+    "Pitch": 96,
     "Logo": "",
     "link": "",
     "Brand": "Kabaddi Adda",
@@ -1633,7 +1633,7 @@
   },
   {
     "Episode": 30,
-    "Pitch No": 97,
+    "Pitch": 97,
     "Logo": "",
     "link": "",
     "Brand": "Shades of Spring",
@@ -1650,7 +1650,7 @@
   },
   {
     "Episode": 30,
-    "Pitch No": 98,
+    "Pitch": 98,
     "Logo": "",
     "link": "",
     "Brand": "Scholify",
@@ -1667,7 +1667,7 @@
   },
   {
     "Episode": 31,
-    "Pitch No": 99,
+    "Pitch": 99,
     "Logo": "",
     "link": "",
     "Brand": "Scrapshala",
@@ -1684,7 +1684,7 @@
   },
   {
     "Episode": 31,
-    "Pitch No": 100,
+    "Pitch": 100,
     "Logo": "",
     "link": "",
     "Brand": "Sabjikothi",
@@ -1701,7 +1701,7 @@
   },
   {
     "Episode": 31,
-    "Pitch No": 101,
+    "Pitch": 101,
     "Logo": "",
     "link": "",
     "Brand": "AyuRythm",
@@ -1718,7 +1718,7 @@
   },
   {
     "Episode": 31,
-    "Pitch No": 102,
+    "Pitch": 102,
     "Logo": "",
     "link": "",
     "Brand": "Astrix",
@@ -1735,7 +1735,7 @@
   },
   {
     "Episode": 32,
-    "Pitch No": 103,
+    "Pitch": 103,
     "Logo": "",
     "link": "",
     "Brand": "Thea and Sid",
@@ -1752,7 +1752,7 @@
   },
   {
     "Episode": 32,
-    "Pitch No": 104,
+    "Pitch": 104,
     "Logo": "",
     "link": "",
     "Brand": "Experential Etc",
@@ -1769,7 +1769,7 @@
   },
   {
     "Episode": 32,
-    "Pitch No": 105,
+    "Pitch": 105,
     "Logo": "",
     "link": "",
     "Brand": "Grow fitter",
@@ -1786,7 +1786,7 @@
   },
   {
     "Episode": 32,
-    "Pitch No": 106,
+    "Pitch": 106,
     "Logo": "",
     "link": "",
     "Brand": "Med Tech",
@@ -1803,7 +1803,7 @@
   },
   {
     "Episode": 33,
-    "Pitch No": 107,
+    "Pitch": 107,
     "Logo": "",
     "link": "",
     "Brand": "Colour Me Mad",
@@ -1820,7 +1820,7 @@
   },
   {
     "Episode": 33,
-    "Pitch No": 108,
+    "Pitch": 108,
     "Logo": "",
     "link": "",
     "Brand": "Mavi's",
@@ -1837,7 +1837,7 @@
   },
   {
     "Episode": 33,
-    "Pitch No": 109,
+    "Pitch": 109,
     "Logo": "",
     "link": "",
     "Brand": "Tweek Labs",
@@ -1854,7 +1854,7 @@
   },
   {
     "Episode": 33,
-    "Pitch No": 110,
+    "Pitch": 110,
     "Logo": "",
     "link": "",
     "Brand": "Proxgy",
@@ -1871,7 +1871,7 @@
   },
   {
     "Episode": 34,
-    "Pitch No": 111,
+    "Pitch": 111,
     "Logo": "",
     "link": "",
     "Brand": "Nomad Food Project",
@@ -1888,7 +1888,7 @@
   },
   {
     "Episode": 34,
-    "Pitch No": 112,
+    "Pitch": 112,
     "Logo": "",
     "link": "",
     "Brand": "Twee in One",
@@ -1905,7 +1905,7 @@
   },
   {
     "Episode": 34,
-    "Pitch No": 113,
+    "Pitch": 113,
     "Logo": "",
     "link": "",
     "Brand": "Green Protein",
@@ -1922,7 +1922,7 @@
   },
   {
     "Episode": 34,
-    "Pitch No": 114,
+    "Pitch": 114,
     "Logo": "",
     "link": "",
     "Brand": "On2Cook",
@@ -1939,7 +1939,7 @@
   },
   {
     "Episode": 35,
-    "Pitch No": 115,
+    "Pitch": 115,
     "Logo": "",
     "link": "",
     "Brand": "Jain Shikanji",
@@ -1956,7 +1956,7 @@
   },
   {
     "Episode": 35,
-    "Pitch No": 116,
+    "Pitch": 116,
     "Logo": "",
     "link": "",
     "Brand": "Woloo",
@@ -1973,7 +1973,7 @@
   },
   {
     "Episode": 35,
-    "Pitch No": 117,
+    "Pitch": 117,
     "Logo": "",
     "link": "",
     "Brand": "Elcare India",
@@ -1990,7 +1990,7 @@
   },
   {
     "Episode": 35,
-    "Pitch No": 118,
+    "Pitch": 118,
     "Logo": "",
     "link": "",
     "Brand": "Lenskart",

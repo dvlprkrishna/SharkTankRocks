@@ -8,7 +8,8 @@ body {scroll-behavior: smooth;
   padding: 0;
   text-align: unset;
   display: initial !important;
-  --color-black: #272727;
+  /* --color-black: #272727; */
+  --color-black: #333333;
   --color-cream: #fafaf0;
   --color-grey: #e1e8ed;
   --color-yellow: #ffdb59;
