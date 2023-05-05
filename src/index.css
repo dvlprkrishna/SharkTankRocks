@@ -1,39 +1,9 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
 }
 
 button {
@@ -47,23 +17,59 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: var(--color-black);
+    background-color: var(--color-cream);
   }
-  a:hover {
-    color: #747bff;
+}
+
+@media (min-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+  .mainListWrap {
+    display: grid;
+    margin-left: 1em;
+    grid-template-columns: 1fr;
   }
-  button {
-    background-color: #f9f9f9;
+}
+@media (min-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  .mainListWrap {
+    display: grid;
+    margin-left: 1em;
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  .mainListWrap {
+    display: grid;
+    margin-left: 1em;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .mainListWrap {
+    display: grid;
+    margin-left: 1em;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  .mainListWrap {
+    display: grid;
+    margin-left: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+  .mainListWrap {
+    display: grid;
+    margin-left: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
