@@ -31,6 +31,14 @@ function App() {
       <button className="loadMore" onClick={loadMore}>
         {displayCount <= s1Data.length ? "Load More" : "All Deal Loaded"}
       </button>
+      <footer>
+        <p>
+          &copy; {new Date().getFullYear()}. Created By{" "}
+          <a href="https://krishnasahu.in" target="_blank" rel="noreferrer">
+            - Krishna Sahu
+          </a>
+        </p>
+      </footer>
     </>
   );
 }

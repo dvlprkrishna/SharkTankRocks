@@ -62,3 +62,8 @@ button.loadMore:active,
   transition: 0.2s all;
   box-shadow: 4px 4px 0px 0px var(--color-black);
 }
+
+
+footer {
+  text-align: center;
+}
