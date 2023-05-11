@@ -1,5 +1,6 @@
 import React from "react";
 import sti from "/stilogo.png";
+import Footer from "./Footer";
 
 const Stats = () => {
   return (
@@ -21,6 +22,7 @@ const Stats = () => {
         <h2>Stats</h2>
         <h3>Coming Soon</h3>
       </div>
+      <Footer />
     </>
   );
 };

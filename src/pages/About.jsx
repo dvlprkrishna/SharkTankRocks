@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import sti from "/stilogo.png";
+import Footer from "./Footer";
 
 const About = () => {
   return (
@@ -33,6 +34,7 @@ const About = () => {
           <li style={{ marginBottom: "1em" }}>Investor Detailed Stats Page</li>
         </ul>
       </div>
+      <Footer />
     </>
   );
 };
