@@ -49,7 +49,10 @@ const Header = (props) => {
                   Season 2
                 </button>
               </div>
-              <div className="investors" style={{ zIndex: -1, cursor: "none" }}>
+              <div
+                className="investorsFilter"
+                style={{ zIndex: -1, cursor: "none" }}
+              >
                 <button>
                   Namita Thapar<span>22</span>
                 </button>

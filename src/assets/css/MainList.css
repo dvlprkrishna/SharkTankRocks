@@ -113,6 +113,8 @@ img.brandLogo:hover {
   justify-content: flex-start;
   align-items: center;
   gap: 1em;
+  border-top: 3.5px solid var(--color-grey);
+  margin-top: 1em;
 }
 .askingPrice p,
 .deal p {

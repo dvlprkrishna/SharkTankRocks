@@ -79,7 +79,7 @@ footer {
   justify-content: flex-start;
   align-items: center;
 }
-.investors {
+.investorsFilter {
     display: none!important;
 }
 
@@ -105,7 +105,7 @@ footer {
   .filter {
     margin-bottom: 0.75em;
   }
-  .investors {
+  .investorsFilter {
     display: none!important;
   }
 
