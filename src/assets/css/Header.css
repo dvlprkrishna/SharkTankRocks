@@ -38,7 +38,7 @@ h2 {
   display: inline-flex;
   font-family: "IBM Plex Mono", monospace;
   border: 1px solid var(--color-black);
-  margin: 0.25em;
+  margin: 0.25em 0.5em 0.25em 0.25em;
   text-align: left !important;
   background-color: var(--color-grey);
   color: var(--color-black);

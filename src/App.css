@@ -73,3 +73,30 @@ button.loadMore:active,
 footer {
   text-align: center;
 }
+
+.investors {
+    display: none!important;
+}
+
+@media screen and (max-width: 998px) {
+  .navStripe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navLinks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  h2 {
+    font-size: 2em!important;
+  }
+  .filter {
+    margin-bottom: 0.75em;
+  }
+  .investors {
+    display: none!important;
+  }
+}
