@@ -30,11 +30,10 @@ body {scroll-behavior: smooth;
   }
 }
 
-.navLinks a:hover,
-  .navLinks .active {
+.navLinks a:hover, .navLinks .active {
   transition: all .1s;
-  background-color: var(--color-green);
-  box-shadow: 4px 4px 0px 0px var(--color-yellow);
+  background-color: var(--color-cream);
+  box-shadow: 4px 4px 0px 0px var(--color-blue);
 }
 
 .mainListWrap {

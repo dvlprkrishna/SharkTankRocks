@@ -16,11 +16,6 @@
   color: var(--color-black);
   transition: 0.1s all;
 }
-.navStripe a:hover {
-  transition: 0.1s all;
-  color: var(--color-black);
-  background-color: var(--color-green);
-}
 .filterWrap {
   padding: 0em 1.5em;
 }

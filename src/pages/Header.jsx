@@ -21,6 +21,9 @@ const Header = (props) => {
               <div className="navLinks">
                 <a href="/stats">Stats</a>
                 <a href="/about">About Us</a>
+                <a href="/" className="active">
+                  Homepage
+                </a>
               </div>
             </div>
             <div className="filterWrap">
@@ -43,7 +46,7 @@ const Header = (props) => {
                   Season 2
                 </button>
               </div>
-              <div>
+              <div style={{ zIndex: -1, cursor: "none" }}>
                 <button>
                   Namita Thapar<span>22</span>
                 </button>
