@@ -7,10 +7,6 @@
         {
             "source": "/stats",
             "destination": "/stats"
-        },
-        {
-            "source": "/",
-            "destination": "/"
         }
     ]
 }
