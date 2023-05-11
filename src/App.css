@@ -99,4 +99,9 @@ footer {
   .investors {
     display: none!important;
   }
+
+  .brandName h3 {
+    width: auto;
+    max-width: 320px;
+  }
 }
