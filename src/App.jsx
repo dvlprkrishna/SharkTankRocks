@@ -1,45 +1,24 @@
 import "./App.css";
 import Header from "./pages/Header";
 import MainList from "./pages/MainList";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import About from "./pages/About.jsx";
 
-import season1Data from "./assets/season1.json";
-import season2Data from "./assets/season2.json";
+import Season1 from "./assets/season1.json";
+import Season2 from "./assets/season2.json";
 import { useEffect, useState } from "react";
+import Home from "./pages/Home";
+import Stats from "./pages/Stats";
 
 function App() {
-  const [s1Data, setS1Data] = useState(season1Data);
-  const [displayData, setDisplayData] = useState(s1Data.slice(0, 11));
-  const [displayCount, setDisplayCount] = useState(11);
-
-  useEffect(() => {
-    setDisplayData(s1Data.slice(0, displayCount));
-  }, [displayCount, s1Data]);
-
-  const loadMore = (e) => {
-    e.preventDefault();
-    setDisplayCount(displayCount + 11);
-  };
-
   return (
-    <>
-      <Header />
-      <div className="mainListWrap">
-        {displayData.map((elem) => {
-          return <MainList elem={elem} key={elem.Brand} />;
-        })}
-      </div>
-      <button className="loadMore" onClick={loadMore}>
-        {displayCount <= s1Data.length ? "Load More" : "All Deal Loaded"}
-      </button>
-      <footer>
-        <p>
-          &copy; {new Date().getFullYear()}. Created By{" "}
-          <a href="https://krishnasahu.in" target="_blank" rel="noreferrer">
-            - Krishna Sahu
-          </a>
-        </p>
-      </footer>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/about" element={<About />} />
+        <Route path="/stats" element={<Stats />} />
+        <Route path="/" exact element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

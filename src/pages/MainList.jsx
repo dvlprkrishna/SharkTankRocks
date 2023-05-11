@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 import "../assets/css/MainList.css";
-import viteLogo from "/vite.svg";
 import askLogo from "../assets/chat.png";
 import dealLogo from "../assets/cash.png";
 
