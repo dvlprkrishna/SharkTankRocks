@@ -6,6 +6,7 @@
   padding: 0.5em 1.5em;
   background-color: var(--color-black);
   color: var(--color-grey);
+  align-items: center;
 }
 .navStripe a {
   font-family: "IBM Plex Mono", monospace;

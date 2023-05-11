@@ -73,22 +73,31 @@ button.loadMore:active,
 footer {
   text-align: center;
 }
-
+.logoWrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
 .investors {
     display: none!important;
 }
 
-@media screen and (max-width: 998px) {
+@media screen and (max-width: 1000px) {
+  .logoWrap img {
+    display: none;
+}
   .navStripe {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
-  .navLinks{
+  .navLinks {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  .logoWrap {
+    display: flex;
+    flex-direction: row;
   }
   h2 {
     font-size: 2em!important;

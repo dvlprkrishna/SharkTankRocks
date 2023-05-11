@@ -1,11 +1,15 @@
 import React from "react";
 import Header from "./Header";
+import sti from "/stilogo.png";
 
 const About = () => {
   return (
     <>
       <div className="navStripe">
-        <p>List of Invesments made in Shark Tank India </p>
+        <div className="logoWrap">
+          <img src={sti} width={80} alt="" />
+          <p>List of Invesments made in Shark Tank India </p>
+        </div>
         <div className="navLinks">
           <a href="/stats">Stats</a>
           <a href="/about" className="active">

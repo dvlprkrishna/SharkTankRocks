@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import "../assets/css/Header.css";
-
+import sti from "/stilogo.png";
 // eslint-disable-next-line react/prop-types
 const Header = (props) => {
   function handleClick(event) {
@@ -17,7 +17,10 @@ const Header = (props) => {
         <header>
           <nav>
             <div className="navStripe">
-              <p>List of Invesments made in Shark Tank India </p>
+              <div className="logoWrap">
+                <img src={sti} width={80} alt="" />
+                <p>List of Invesments made in Shark Tank India </p>
+              </div>
               <div className="navLinks">
                 <a href="/stats">Stats</a>
                 <a href="/about">About Us</a>
